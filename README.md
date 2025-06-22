@@ -2,9 +2,9 @@
 
 <div align="center">
 <p margin: auto;">
-  I'm Dirga Yuditama — someone who enjoys building things with code and turning ideas into interactive digital experiences.
+  I'm Dirga Yuditama — someone who enjoys building with code and turning ideas into interactive digital experiences.
   <br>
-  I have a strong interest in programming and love exploring different areas in tech, especially when working with JavaScript.
+  I have love exploring different areas in tech, especially when working with JavaScript.
   <br>
   I'm currently working on personal projects that help sharpen my skills, and I look forward to contributing to meaningful initiatives in the tech space.
 </p>
