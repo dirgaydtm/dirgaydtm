@@ -13,9 +13,10 @@
     I love exploring different areas in tech, especially when working with JavaScript.
   </p>
 
-  <img src="https://skillicons.dev/icons?i=js,ts,java,php,mysql,mongo,express,react,nodejs,bootstrap,tailwind,git,vercel" alt="Tech Stack" />
-
-  <br>
+  <img src="https://skillicons.dev/icons?i=js,ts,java,kotlin,dart" alt="Tech Stack" /><br />
+  <img src="https://skillicons.dev/icons?i=react,flutter,next,bootstrap,tailwind" alt="Tech Stack" /><br />
+  <img src="https://skillicons.dev/icons?i=mysql,mongo,express,nodejs,firebase" alt="Tech Stack" /><br />
+  <img src="https://skillicons.dev/icons?i=linux,arch,figma,docker,git,vercel" alt="Tech Stack" />
 
   <h3>Get In Touch</h3>
 
