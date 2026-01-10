@@ -61,3 +61,10 @@
 <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&profanity=false&bar_color=53b14f&bar_color_cover=false"></a>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=dirgaydtm&theme=github-compact#gh-dark-mode-only" height="165px" alt="GitHub Activity Graph"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake.svg">
+</picture>
+
