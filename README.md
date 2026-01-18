@@ -1,7 +1,9 @@
 ## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2500&pause=1500&color=ffffff&background=00000000&vCenter=true&random=false&width=750&height=50&lines=Hi,+Nice+to+See+You;Just+an+Ordinary+Developer;Still+Learning,+Still+Debugging)](https://git.io/typing-svg)
 
-  I'm <strong>Dirga Yuditama</strong> — someone who enjoys building with code and turning ideas into interactive digital experiences.<br>
-  I love exploring different areas in tech, especially when working with JavaScript.
+I'm <strong>Dirga Yuditama</strong> — someone who enjoys building with code and turning ideas into interactive digital experiences.<br>
+I love exploring different areas in tech, especially when working with JavaScript. I use <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" height="22"/> btw...
+
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&profanity=false&bar_color=53b14f&bar_color_cover=false"></a>
 
 <a href="https://linkedin.com/in/dirgaydtm" target="_blank">
   <img
@@ -30,8 +32,8 @@
   />
 </a>
 
-## Skills 
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" /><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" /><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+## 🔥SKILLS
+<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 <br>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -55,16 +57,16 @@
 <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 
-## Actity👨‍💻
-<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&profanity=false&bar_color=53b14f&bar_color_cover=false"></a>
+## 📈ACTIVITY & STATS
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dirgaydtm&theme=github-compact#gh-dark-mode-only" height="165px" alt="GitHub Activity Graph"/>
+<img src="https://github-readme-streak-stats-ten-ebon-72.vercel.app/api/?user=dirgaydtm&hide_border=true&theme=github_dark" alt="GitHub Streak" height="165px"/><img src="https://github-readme-activity-graph.vercel.app/graph?username=dirgaydtm&theme=github-compact" height="165px" alt="GitHub Activity Graph"/>
 
+## 🐍PET
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output/github-contribution-grid-snake.svg">
 </picture>
+
 
