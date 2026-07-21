@@ -34,13 +34,10 @@ I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.n
 <br>
 <br>
 <img src="https://img.shields.io/badge/Currently%20Learning-1a1a1a?style=for-the-badge" /><img src="https://img.shields.io/badge/Postgresql-F7F7F7?style=for-the-badge&logo=postgresql&logoColor=305D8D" /><img src="https://img.shields.io/badge/Go-18A9A2?style=for-the-badge&logo=go&logoColor=white" />
-
 <br>
-
-<div style="height: 170px;" align="center">
-<img src="https://github-streak-stats-ruby.vercel.app/?user=dirgaydtm&theme=github_dark" alt="GitHub Streak" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs?username=dirgaydtm&hide_title=true&hide=c%2B%2B,cmake&theme=dark&layout=normal&langs_count=4&border_color=3CD254&bg_color=0D1117&border_radius=2" />
-</div>
+<br>
+<img src="https://github-streak-stats-ruby.vercel.app/?user=dirgaydtm&theme=github_dark" alt="GitHub Streak" height=170px/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs?username=dirgaydtm&hide_title=true&hide=c%2B%2B,cmake&theme=dark&layout=normal&langs_count=4&border_color=3CD254&bg_color=0D1117&border_radius=2" height=170px/>
 
 <br>
 
@@ -48,7 +45,6 @@ I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.n
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=false&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31p3xu7vtnjyco3hhle5rul7kqva&redirect=true)
 
-<br >
 <h3><code>dirga@github ~ $ ./links.sh</code></h3>
 
 [![Website](https://img.shields.io/badge/Website-dirga.dev-1a1a1a?style=for-the-badge&logo=globe&logoColor=white&labelColor=ffffff)](https://dirga.dev)
