@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./contrib-heatmap.svg" width="860" alt="Dirga's GitHub contribution graph — auto-refreshed daily" />
+<img src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-2/contrib-heatmap.svg" width="860" alt="Dirga's GitHub contribution graph — auto-refreshed daily" />
 
 <br >
 
