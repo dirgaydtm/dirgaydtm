@@ -1,0 +1,36 @@
+name: Generate ASCII Portrait
+
+"on":
+  schedule:
+    - cron: "0 0 * * *" # every day
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate ASCII SVG
+        run: python scripts/render_ascii_potrait.py data/Avatar.jpeg ascii-portrait.svg
+
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update ascii portrait [skip ci]"
+          file_pattern: "ascii-portrait.svg"
+          branch: output-3
+          create_branch: true
+          push_options: "--force"

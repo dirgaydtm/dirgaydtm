@@ -30,7 +30,7 @@ MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec
 n = len(contribs)
 NW = (n + 6) // 7
 W = LEFT + NW*(CELL+GAP) + 6
-H = TOP + 7*(CELL+GAP) + 22
+H = TOP + 7*(CELL+GAP) + 4
 
 # timing (seconds)
 REVEAL, DUR = 3.6, 0.55
@@ -43,7 +43,8 @@ for wk in range(NW):
     d = sd + datetime.timedelta(days=wk*7)
     if d.month != last_m:
         last_m = d.month
-        labels.append(f'<text class="lbl" x="{LEFT+wk*(CELL+GAP)}" y="{TOP-8}">{MONTHS[d.month-1]}</text>')
+        if d.day <= 7:
+            labels.append(f'<text class="lbl" x="{LEFT+wk*(CELL+GAP)}" y="{TOP-8}">{MONTHS[d.month-1]}</text>')
 for name, r in [("Mon",1),("Wed",3),("Fri",5)]:
     labels.append(f'<text class="lbl" x="2" y="{TOP+r*(CELL+GAP)+CELL-2}">{name}</text>')
 
@@ -70,7 +71,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <rect width="{W}" height="{H}" fill="none"/>
 {''.join(labels)}
 {''.join(rects)}
-<text class="total" x="{LEFT}" y="{H-6}">{total:,} contributions in the last year</text>
 </svg>'''
 
 open(OUT, "w").write(svg)
