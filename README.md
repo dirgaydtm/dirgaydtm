@@ -36,8 +36,8 @@ I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.n
 <img src="https://img.shields.io/badge/Currently%20Learning-1a1a1a?style=for-the-badge" /><img src="https://img.shields.io/badge/Postgresql-F7F7F7?style=for-the-badge&logo=postgresql&logoColor=305D8D" /><img src="https://img.shields.io/badge/Go-18A9A2?style=for-the-badge&logo=go&logoColor=white" />
 <br>
 <br>
-<img src="https://github-streak-stats-ruby.vercel.app/?user=dirgaydtm&theme=github_dark" alt="GitHub Streak" height=170px/>
-<img src="https://github-stats-extended.vercel.app/api/top-langs?username=dirgaydtm&hide_title=true&hide=c%2B%2B,cmake&theme=dark&layout=normal&langs_count=4&border_color=3CD254&bg_color=0D1117&border_radius=2" height=170px/>
+<img src="https://github-readme-streak-daydreamsdeveloper.vercel.app/?user=dirgaydtm&theme=github_dark&starting_year=2024&short_numbers=true&fire=FFEF00" alt="GitHub Streak" height=170px/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs?username=dirgaydtm&hide_title=true&hide=c%2B%2B,cmake,php&theme=dark&layout=normal&langs_count=3&border_color=3CD254&bg_color=0D1117&border_radius=2" height=170px/>
 
 <br>
 
