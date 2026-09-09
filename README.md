@@ -8,29 +8,26 @@
 I'm <strong>Dirga Yuditama</strong>, someone who enjoys building with code and turning ideas into interactive digital experiences.<br>
 I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" height="22"/> btw...
 
-<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 <img src="https://img.shields.io/badge/TypeScript-2F74C0?style=for-the-badge&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Dart-00B3AA?style=for-the-badge&logo=dart&logoColor=white" />
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/next-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Tanstack-000000?style=for-the-badge&logo=tanstack&logoColor=white" />
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
 <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
-<img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/GSAP-black?style=for-the-badge&logo=gsap&logoColor=white" />
+<img src="https://img.shields.io/badge/Node-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Bun-2C2C2C?style=for-the-badge&logo=bun&logoColor=FBF0DF" />
 <img src="https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=3CC88B" />
+<img src="https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white" />
+<img src="https://img.shields.io/badge/Lefthook-FF1E1E?style=for-the-badge&logo=lefthook&logoColor=white" />
 <img src="https://img.shields.io/badge/linux-ffffff?style=for-the-badge&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
-<img src="https://img.shields.io/badge/dbeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Fabric-3E3E3E?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMiAyaDZ2NkgyVjJ6bTAgN2g2djZIMlY5em0wIDdoNnY2SDJ2LTZ6TTkgMmg2djZIOVYyem03IDBoNnY2aC02VjJ6TTkgOWg2djZIOVY5em03IDdoNnY2aC02di02ek05IDE2aDZ2Nkg5di02ek0xNiA5aDZ2NmgtNlY5eiIvPgo8L3N2Zz4K" />
 <br>
 <br>
 <img src="https://img.shields.io/badge/Currently%20Learning-1a1a1a?style=for-the-badge" /><img src="https://img.shields.io/badge/Postgresql-F7F7F7?style=for-the-badge&logo=postgresql&logoColor=305D8D" /><img src="https://img.shields.io/badge/Go-18A9A2?style=for-the-badge&logo=go&logoColor=white" />
@@ -49,7 +46,7 @@ I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.n
 
 [![Website](https://img.shields.io/badge/Website-dirga.dev-1a1a1a?style=for-the-badge&logo=globe&logoColor=white&labelColor=ffffff)](https://dirga.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dirgaydtm-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://linkedin.com/in/dirgaydtm)
-[![Gmail](https://img.shields.io/badge/Gmail-dirgayuditama6@gmail.com-1a1a1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FF3B30)](mailto:dirgayuditama6@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-dirgayuditama6-1a1a1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FF3B30)](mailto:dirgayuditama6@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-dirgaa.yd-1a1a1a?style=for-the-badge&logo=instagram&logoColor=white&labelColor=C13584)](https://instagram.com/dirgaa.yd)
 [![Visitors](https://komarev.com/ghpvc/?username=dirgaydtm&color=1a1a1a&style=for-the-badge&label=Profile+Views)](https://github.com/dirgaydtm)
 </div>
