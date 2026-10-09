@@ -27,10 +27,11 @@ I love exploring different areas in tech. I use <img src="https://cdn.jsdelivr.n
 <img src="https://img.shields.io/badge/Lefthook-FF1E1E?style=for-the-badge&logo=lefthook&logoColor=white" />
 <img src="https://img.shields.io/badge/linux-ffffff?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Fabric-3E3E3E?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMiAyaDZ2NkgyVjJ6bTAgN2g2djZIMlY5em0wIDdoNnY2SDJ2LTZ6TTkgMmg2djZIOVYyem03IDBoNnY2aC02VjJ6TTkgOWg2djZIOVY5em03IDdoNnY2aC02di02ek05IDE2aDZ2Nkg5di02ek0xNiA5aDZ2NmgtNlY5eiIvPgo8L3N2Zz4K" />
+
 <br>
 <br>
 <img src="https://img.shields.io/badge/Currently%20Learning-1a1a1a?style=for-the-badge" /><img src="https://img.shields.io/badge/Postgresql-F7F7F7?style=for-the-badge&logo=postgresql&logoColor=305D8D" /><img src="https://img.shields.io/badge/Go-18A9A2?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Hobby,%20Not%20Career-1a1a1a?style=for-the-badge" /><img src="https://img.shields.io/badge/rust-EE4B00.svg?style=for-the-badge&logo=rust&logoColor=white" /><img src="https://img.shields.io/badge/Fabric-3E3E3E?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMiAyaDZ2NkgyVjJ6bTAgN2g2djZIMlY5em0wIDdoNnY2SDJ2LTZ6TTkgMmg2djZIOVYyem03IDBoNnY2aC02VjJ6TTkgOWg2djZIOVY5em03IDdoNnY2aC02di02ek05IDE2aDZ2Nkg5di02ek0xNiA5aDZ2NmgtNlY5eiIvPgo8L3N2Zz4K" />
 <br>
 <br>
 <img src="https://github-readme-streak-daydreamsdeveloper.vercel.app/?user=dirgaydtm&theme=github_dark&starting_year=2024&short_numbers=true&fire=FFEF00" alt="GitHub Streak" height=170px/>
