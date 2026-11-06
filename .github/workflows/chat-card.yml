@@ -1,0 +1,35 @@
+name: Chat Card
+
+"on":
+  schedule:
+    - cron: "0 23 * * *" # 06:00 WIB
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate chat card SVG (stdlib only)
+        run: python scripts/generate_chat_card.py dirgaydtm .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # higher API rate limit for the languages bubble
+
+      - name: Commit updated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh chat card [skip ci]"
+          file_pattern: "chat.svg chat-link.svg"
+          branch: output-4
+          create_branch: true
+          push_options: "--force"
