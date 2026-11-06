@@ -21,16 +21,16 @@ jobs:
       - name: Scrape real contribution data (no auth needed)
         env:
           GH_PROFILE_USER: dirgaydtm
-        run: bun scripts/fetch_contributions.ts
+        run: bun scripts/fetch_contributions.ts dist/data/contributions.json
 
       - name: Render animated contribution graph SVG
-        run: bun scripts/generate_streak_svg.ts dirgaydtm contrib-heatmap.svg
+        run: bun scripts/generate_streak_svg.ts dirgaydtm dist/contrib-heatmap.svg
 
-      - name: Commit updated art
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Push only the output to output-2
+        uses: crazy-max/ghaction-github-pages@v4
         with:
+          target_branch: output-2
+          build_dir: dist
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
-          branch: output-2
-          create_branch: true
-          push_options: "--force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

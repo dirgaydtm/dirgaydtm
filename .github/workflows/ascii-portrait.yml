@@ -22,13 +22,13 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Generate ASCII SVG
-        run: bun scripts/render_ascii_portrait.ts data/Avatar.jpeg ascii-portrait.svg
+        run: mkdir -p dist && bun scripts/render_ascii_portrait.ts data/Avatar.jpeg dist/ascii-portrait.svg
 
-      - name: Commit updated art
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Push only the output to output-3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
+          target_branch: output-3
+          build_dir: dist
           commit_message: "chore: update ascii portrait [skip ci]"
-          file_pattern: "ascii-portrait.svg"
-          branch: output-3
-          create_branch: true
-          push_options: "--force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

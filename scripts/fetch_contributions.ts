@@ -1,11 +1,11 @@
 // Scrape a user's public contribution calendar into data/contributions.json (no auth needed).
-// usage: GH_PROFILE_USER=dirgaydtm bun scripts/fetch_contributions.ts
+// usage: GH_PROFILE_USER=dirgaydtm bun scripts/fetch_contributions.ts [out.json]
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const USERNAME = process.env.GH_PROFILE_USER ?? "dirgaydtm";
 const URL = `https://github.com/users/${USERNAME}/contributions`;
-const OUT_PATH = join(import.meta.dir, "..", "data", "contributions.json");
+const OUT_PATH = process.argv[2] ?? join(import.meta.dir, "..", "data", "contributions.json");
 
 type Day = { date: string; count: number };
 type Streak = { length: number; start: string | null; end: string | null };

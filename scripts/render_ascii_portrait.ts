@@ -48,7 +48,7 @@ rows.forEach((line, ry) => {
 		`<clipPath id="r${ry}"><rect x="0" y="${rowY.toFixed(1)}" height="${CELL_H}" width="0"><animate attributeName="width" from="0" to="${ART_W}" begin="${delay.toFixed(3)}s" dur="${ROW_DUR.toFixed(2)}s" fill="freeze"/></rect></clipPath>`,
 		`<g clip-path="url(#r${ry})"><text xml:space="preserve" x="0" y="${y.toFixed(1)}" fill="${INK}" font-size="${fontSize}" textLength="${ART_W}" lengthAdjust="spacing">${esc(line)}</text></g>`,
 		`<rect y="${(rowY + 1).toFixed(1)}" width="${CELL_W}" height="${CELL_H - 2}" fill="${CURSOR}" opacity="0"><animate attributeName="x" from="0" to="${ART_W}" begin="${delay.toFixed(3)}s" dur="${ROW_DUR.toFixed(2)}s" fill="freeze"/>` +
-		`<set attributeName="opacity" to="0.85" begin="${delay.toFixed(3)}s"/><set attributeName="opacity" to="0" begin="${(delay + ROW_DUR).toFixed(3)}s"/></rect>`,
+			`<set attributeName="opacity" to="0.85" begin="${delay.toFixed(3)}s"/><set attributeName="opacity" to="0" begin="${(delay + ROW_DUR).toFixed(3)}s"/></rect>`,
 	);
 });
 parts.push("</svg>");
