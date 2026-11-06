@@ -16,20 +16,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+      - uses: oven-sh/setup-bun@v2
 
       - name: Scrape real contribution data (no auth needed)
         env:
           GH_PROFILE_USER: dirgaydtm
-        run: python scripts/fetch_contributions.py
+        run: bun scripts/fetch_contributions.ts
 
       - name: Render animated contribution graph SVG
-        run: python scripts/generate_streak_svg.py dirgaydtm contrib-heatmap.svg
+        run: bun scripts/generate_streak_svg.ts dirgaydtm contrib-heatmap.svg
 
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5

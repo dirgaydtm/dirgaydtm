@@ -16,15 +16,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: bun install --frozen-lockfile
 
       - name: Generate ASCII SVG
-        run: python scripts/render_ascii_potrait.py data/Avatar.jpeg ascii-portrait.svg
+        run: bun scripts/render_ascii_portrait.ts data/Avatar.jpeg ascii-portrait.svg
 
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -16,12 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - uses: oven-sh/setup-bun@v2
 
-      - name: Generate chat card SVG (stdlib only)
-        run: python scripts/generate_chat_card.py dirgaydtm .
+      - name: Generate chat card SVG (no dependencies)
+        run: bun scripts/generate_chat_card.ts dirgaydtm .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # higher API rate limit for the languages bubble
 
