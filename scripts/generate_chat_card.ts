@@ -16,7 +16,7 @@ const LANG_COLORS: Record<string, string> = {
 	Rust: "#dea584",
 	Go: "#00ADD8",
 }; // linguist colors
-const [X, W, FS, LH, PADX, PADY, GAP, R] = [28, 506, 17, 24, 16, 10, 8, 18];
+const [X, FS, LH, PADX, PADY, GAP, R] = [0, 17, 24, 16, 10, 8, 18];
 const [CELL, STEP, IP] = [6, 8, 12]; // heatmap cell, cell+gap, image padding
 
 type Day = { date: string; count: number; level: number };
@@ -98,9 +98,15 @@ function wrap(text: string, maxW: number) {
 	return lines;
 }
 
-/** One <tspan> per line, first baseline at y. */
+/** One <tspan> per line, first baseline at y. textLength pins each line to the width the bubble was sized for,
+ *  so a wider fallback font (SF on iOS, Roboto on Android) can't spill out of the bubble. */
 const tspans = (lines: string[], x: number, y: number) =>
-	lines.map((l, i) => `<tspan x="${x}" y="${y + i * LH}">${esc(l)}</tspan>`).join("");
+	lines
+		.map(
+			(l, i) =>
+				`<tspan x="${x}" y="${y + i * LH}" textLength="${f1(textW(l, FS))}" lengthAdjust="spacingAndGlyphs">${esc(l)}</tspan>`,
+		)
+		.join("");
 
 /** Width of the heatmap bubble, also the max width of every text bubble. */
 const heatmapWidth = (days: Day[]) => Math.floor((days.length + 6) / 7) * STEP - 2 + 2 * IP;
@@ -144,7 +150,7 @@ function langsBubble(langs: Lang[], y: number, delay: number): [number, string] 
 		legend +=
 			`<circle cx="${f1(lx + 6)}" cy="${ly - 5}" r="5" fill="${color}"/>` +
 			`<text x="${f1(lx + 16)}" y="${ly}" style="font-size:${LFS}px"><tspan fill="${WHITE}">${esc(lang)}</tspan>` +
-			`<tspan fill="${GRAY}"> ${pct.toFixed(2)}%</tspan></text>`;
+			`<tspan fill="${GRAY}" dx="5">${pct.toFixed(2)}%</tspan></text>`; // dx, not a leading space: some renderers drop it
 		x += w;
 	});
 	return [
@@ -199,7 +205,7 @@ function chatSvg(s: State, msgs: Msg[], top: number, bottom: number, delay: numb
 		parts.push(`<g class="msg" style="animation-delay:${delay.toFixed(2)}s;transform-origin:${X}px ${y + bh}px">${body}</g>`);
 		[y, delay] = [y + bh + GAP, delay + 0.45];
 	}
-	const H = y - GAP + bottom;
+	const [W, H] = [heatmapWidth(s.days), y - GAP + bottom]; // widest bubble edge to edge, no side padding
 	const label = esc(
 		msgs
 			.map(([, text]) => text)
