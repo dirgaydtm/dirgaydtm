@@ -9,13 +9,13 @@ const OUT_DIR = process.argv[3] ?? "drafts";
 const SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif";
 const GREENS = ["#2c2c2e", "#0e4429", "#006d32", "#26a641", "#39d353"]; // contribution levels 0-4
 const [BUBBLE, WHITE, GRAY, BLUE] = ["#3a3a3c", "#f0f6fc", "#a1a1a6", "#4493f8"];
-const HIDE_LANGS = new Set(["PHP", "Python", "Kotlin"]);
+// linguist colors; also the allowlist, only these languages show up in the card
 const LANG_COLORS: Record<string, string> = {
 	Dart: "#00B4AB",
 	TypeScript: "#3178c6",
-	Rust: "#dea584",
+	JavaScript: "#f1e05a",
 	Go: "#00ADD8",
-}; // linguist colors
+};
 const [X, FS, LH, PADX, PADY, GAP, R] = [0, 17, 24, 16, 10, 8, 18];
 const [CELL, STEP, IP] = [6, 8, 12]; // heatmap cell, cell+gap, image padding
 
@@ -62,7 +62,7 @@ async function getLangs(user: string, top = 4): Promise<Lang[] | null> {
 	}
 	const best = [...totals]
 		.sort((a, b) => b[1] - a[1])
-		.filter(([lang]) => !HIDE_LANGS.has(lang))
+		.filter(([lang]) => lang in LANG_COLORS)
 		.slice(0, top);
 	const total = best.reduce((sum, [, size]) => sum + size, 0);
 	return best.map(([lang, size]) => [lang, (size * 100) / total]);
@@ -144,7 +144,7 @@ function langsBubble(langs: Lang[], y: number, delay: number): [number, string] 
 	const bh = P + BAR + BG + Math.floor((langs.length + 1) / 2) * ROW + P - 8;
 	let [segs, legend, x] = ["", "", X + P];
 	langs.forEach(([lang, pct], i) => {
-		const [color, w] = [LANG_COLORS[lang] ?? "#8b949e", ((bw - 2 * P) * pct) / 100];
+		const [color, w] = [LANG_COLORS[lang], ((bw - 2 * P) * pct) / 100];
 		const [lx, ly] = [X + P + ((i % 2) * (bw - 2 * P)) / 2, y + P + BAR + BG + Math.floor(i / 2) * ROW + 10];
 		segs += `<rect x="${f1(x)}" y="${y + P}" width="${f1(w)}" height="${BAR}" fill="${color}"/>`;
 		legend +=
