@@ -2,7 +2,7 @@ name: Chat Card
 
 "on":
   schedule:
-    - cron: "0 23 * * *" # 06:00 WIB
+    - cron: "5 * * * *" # every hour, off the :00 rush
   workflow_dispatch: {}
   push:
     branches: [main]

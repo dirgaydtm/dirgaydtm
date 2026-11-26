@@ -1,2 +1,3 @@
-<img src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-4/chat.svg" alt="Hellooo, I'm Dirga. I'm a software engineer. I live in Indonesia. My past year on GitHub." /><br>
-<a href="https://dirga.dev"><img src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-4/chat-link.svg" alt="More about me at dirga.dev" /></a>
+<img src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-4/chat.svg" alt="Hellooo, I'm Dirga. I'm a software engineer. My past year on GitHub. I live in Indonesia. Oh, and I use Arch btw." /><br>
+<a href="https://dirga.dev"><img src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-4/chat-link.svg" alt="More about me at dirga.dev. Oops, dropped my whole toolbox." /></a>
+<img width="100%" src="https://raw.githubusercontent.com/dirgaydtm/dirgaydtm/output-5/stack.svg" alt="A heap of tech I've worked with: Next.js, TanStack, Flutter, Go, Rust, Docker, Bun, Linux and more" />

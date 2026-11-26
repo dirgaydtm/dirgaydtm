@@ -2,7 +2,7 @@ name: Generate ASCII Portrait
 
 "on":
   schedule:
-    - cron: "0 0 * * *" # every day
+    - cron: "20 * * * *" # every hour, off the :00 rush
   workflow_dispatch: {}
   push:
     branches: [main]

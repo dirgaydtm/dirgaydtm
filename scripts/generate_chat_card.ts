@@ -13,8 +13,8 @@ const [BUBBLE, WHITE, GRAY, BLUE] = ["#3a3a3c", "#f0f6fc", "#a1a1a6", "#4493f8"]
 const LANG_COLORS: Record<string, string> = {
 	Dart: "#00B4AB",
 	TypeScript: "#3178c6",
-	JavaScript: "#f1e05a",
 	Go: "#00ADD8",
+	Rust: "#dea584",
 };
 const [X, FS, LH, PADX, PADY, GAP, R] = [0, 17, 24, 16, 10, 8, 18];
 const [CELL, STEP, IP] = [6, 8, 12]; // heatmap cell, cell+gap, image padding
@@ -28,7 +28,6 @@ type State = {
 	longest: number;
 	langs: Lang[] | null;
 	time: string;
-	weekday: string;
 };
 
 const esc = (s: string) =>
@@ -184,11 +183,12 @@ function chatMsgs(s: State): Msg[] {
 	return [
 		["text", "Hellooo, I'm Dirga"],
 		...intro,
-		["text", "I live in Indonesia. My currency is cooked, so you can pay me cheap in USD \u{1F602}"],
 		["heatmap", `My past year on GitHub. ${s.total.toLocaleString("en-US")} contributions, and I once went ${s.longest} days straight`],
-		["link", "More about me at dirga.dev", "dirga.dev"],
+		["text", "I live in Indonesia. My currency is cooked, so you can pay me cheap in USD \u{1F602}"],
 		["text", "Oh, and I use Arch btw \u{1F60F}"],
-		["text", `Have a great ${s.weekday}!`],
+		["link", "More about me at dirga.dev", "dirga.dev"],
+		// leads into the tech-stack heap (generate_stack.ts) that spills in right after this bubble
+		["text", "Oops, dropped my whole toolbox \u{1FAE0}"],
 	];
 }
 
@@ -242,7 +242,6 @@ async function main() {
 		longest: longestStreak(data.contributions),
 		langs: await getLangs(USER),
 		time: jakarta({ hour: "2-digit", minute: "2-digit", hourCycle: "h23" }),
-		weekday: jakarta({ weekday: "long" }),
 	};
 	const msgs = chatMsgs(s);
 	const cut = msgs.findIndex(([kind]) => kind === "link");
